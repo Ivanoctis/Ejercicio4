@@ -1,6 +1,7 @@
 package com.example.ejercicio4;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,6 +59,12 @@ public class MyAdapter extends BaseAdapter{
         id.setText(Integer.toString(_id));
         price.setText(String.valueOf(Elementos.get(position).getPrice()));
         provider.setText(Elementos.get(position).getProvider());
+        if (Elementos.get(position).getDelivery() == 0){
+            delivery.setTextColor(Color.GREEN);
+            delivery.setText(R.string.FF);
+        }else {
+            delivery.setText(String.valueOf(Elementos.get(position).getDelivery()));
+        }
 
         Picasso.get().load(Elementos.get(position).getThumb_url()).into(icon);
 

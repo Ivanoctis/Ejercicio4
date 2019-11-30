@@ -10,6 +10,6 @@
     <string name="precio">Prezio del producto</string>
     <string name="provider">Proveedor del producto</string>
     <string name="delivery">Entrega</string>
-    <string name="FF">Gratis</string>
+    <string name="FF">Envío gratis</string>
     <string name="desc">Descripción</string>
 </resources>
