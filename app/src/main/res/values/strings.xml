@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ejercicio4</string>
+    <string name="sv1">Buscar…</string>
+    <string name="b1">Comprar</string>
+    <string name="todo">TODO</string>
+    <string name="Tv1">Element</string>
+    <string name="url_base">https://www.serverbpw.com/</string>
+    <string name="nombre">Nombre del producto</string>
+    <string name="id">Id del producto</string>
+    <string name="precio">Prezio del producto</string>
+    <string name="provider">Proveedor del producto</string>
+    <string name="delivery">Entrega</string>
+    <string name="FF">Gratis</string>
+    <string name="desc">Descripción</string>
+</resources>
